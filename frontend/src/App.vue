@@ -1,11 +1,16 @@
 <template>
   <div id="app"> 
     <div class="container">
-      <div id="logoImg"></div>
-       <div id="nav">
-          <router-link to="/">Home</router-link> |
-         <router-link to="/about">About</router-link>
-       </div>
+      <div id="logoImg">
+        <img src="./assets/logo.jpg" alt="">
+      </div>
+      <div id="homepage">
+        <h1>SHARE</h1>
+              <div id="nav">
+                <router-link to="/">Home</router-link> |
+                <router-link to="/about">About</router-link>
+              </div>
+      </div>
     </div>
     <router-view/>
   </div>
@@ -35,16 +40,28 @@ body {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px 0px 5px 0px rgb(143 143 143 / 75%);
+  display: flex;
 }
 #logoImg
 {
   width: 50%;
 }
+#logoImg img
+{
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+}
+#homepage
+{
+  padding: 20px 10px 20px 10px;
+  width: 50%;
+
+}
 
 #nav {
   margin: 0;
   padding: 0;
-  width: 50%;
 }
 
 #nav a {
