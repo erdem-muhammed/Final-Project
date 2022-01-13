@@ -49,14 +49,14 @@ body {
 #logoImg img
 {
   width: 100%;
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
   height: 100%;
 }
 #homepage
 {
-  padding: 20px 10px 20px 10px;
+  padding: 20px 15px 20px 15px;
   width: 50%;
-
 }
 
 #nav {
