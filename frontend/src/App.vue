@@ -10,7 +10,6 @@
               <div id="nav">
                 <button><router-link to="/login">Login</router-link></button>
                 <button><router-link to="/signUp">Sign Up</router-link></button>
-                
               </div>
       </div>
     </div>
@@ -62,13 +61,25 @@ body {
   flex-direction: column;
   padding: 30px;
 }
+#nav button
+{
+  border-radius: 25px;
+  padding: ;
+  outline: none;
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+}
+#nav button:last-child
+{
+  background-color: ;
+}
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
+  text-decoration: none;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
