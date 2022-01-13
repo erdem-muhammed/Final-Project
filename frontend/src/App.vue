@@ -71,14 +71,13 @@ body {
 #nav button
 {
   border-radius: 25px;
-  padding: ;
   outline: none;
   padding: 10px;
   background-color: black;
   margin-bottom: 10px;
   border: 1px solid #aaa;
   cursor: pointer;
-
+  width: 70%;
 }
 #nav button:first-child:hover
 {
