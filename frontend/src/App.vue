@@ -36,10 +36,15 @@ body {
   border-radius: 8px;
   box-shadow: 0px 0px 5px 0px rgb(143 143 143 / 75%);
 }
+#logoImg
+{
+  width: 50%;
+}
 
 #nav {
   margin: 0;
   padding: 0;
+  width: 50%;
 }
 
 #nav a {
