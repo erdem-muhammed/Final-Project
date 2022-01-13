@@ -72,9 +72,18 @@ body {
   margin-bottom: 10px;
   border: 1px solid #aaa;
 }
+#nav button:first-child:hover
+{
+  background-color: rgb(51, 51, 51);
+  transition: background-color ease-in-out 0.4s;
+}
 #nav button:last-child
 {
   background-color: #0EBD60;
+}
+#nav button:last-child:hover
+{
+  
 }
 
 #nav a {
