@@ -84,7 +84,7 @@ body {
 #nav button:last-child:hover
 {
   background-color: #1eac1e;
-  
+  transition: background-color ease-in-out 0.4s;
 }
 
 #nav a {
