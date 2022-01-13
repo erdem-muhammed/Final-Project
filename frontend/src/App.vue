@@ -9,7 +9,7 @@
         <h3>To connect people each other for better World</h3>
               <div id="nav">
                 <button><router-link to="/login">Login</router-link></button>
-                <button><router-link to="/about">Sign Up</router-link></button>
+                <button><router-link to="/signUp">Sign Up</router-link></button>
                 
               </div>
       </div>
