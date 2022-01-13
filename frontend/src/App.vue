@@ -8,8 +8,8 @@
         <h1>SHARE</h1>
         <h3>To connect people each other for better World</h3>
               <div id="nav">
-                <button><router-link to="/">Home</router-link></button>
-                <button><router-link to="/about">About</router-link></button>
+                <button><router-link to="/">Login</router-link></button>
+                <button><router-link to="/about">Sign Up</router-link></button>
                 
               </div>
       </div>
