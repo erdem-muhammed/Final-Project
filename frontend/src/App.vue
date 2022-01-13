@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="copyright">
-
+            Copyright © 2022 SHARE, GmbH.
       </div>
     </div>
     <router-view/>
@@ -27,9 +27,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 #app {
   font-family: 'Open Sans', sans-serif;
-  height: 120vh;
-  display: flex;
-  justify-content: center;
+  height: 110vh;
 }
 body {
   margin: 0 !important; 
@@ -40,11 +38,12 @@ body {
   width: 100%;
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
 }
 #logoImg
 {
   width: 50%;
-  height: 100%;
+  height: 100vh;
 }
 #logoImg img
 {
@@ -54,7 +53,7 @@ body {
 #homepage
 {
   width: 50%;
-  height: 100%;
+  height: 100vh;
 }
 #homepage .box
 {
@@ -94,11 +93,18 @@ body {
   background-color: #1eac1e;
   transition: background-color ease-in-out 0.4s;
 }
-
 #nav a {
   font-weight: bold;
   color: white;
   text-decoration: none;
+}
+.container .copyright
+{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 </style>
