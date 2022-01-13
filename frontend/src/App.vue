@@ -5,12 +5,14 @@
         <img src="./assets/logo.jpg" alt="">
       </div>
       <div id="homepage">
+        <div class="box">
         <h1>SHARE</h1>
         <h3>To connect people each other for better World</h3>
               <div id="nav">
                 <button><router-link to="/login">Login</router-link></button>
-                <button><router-link to="/signUp">Sign Up</router-link></button>
+                <button><router-link to="/signUp">Register</router-link></button>
               </div>
+        </div>
       </div>
     </div>
     <router-view/>
@@ -22,7 +24,7 @@
 #app {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-  background-color: #f7ead7;
+  background-color: #e2d7c5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,34 +34,33 @@ body {
 }
 #app .container
 {
-  height: 80vh;
-  width: 80vw;
+  height: 100%;
+  width: 100%;
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0px 0px 5px 0px rgb(143 143 143 / 75%);
   display: flex;
 }
 #logoImg
 {
   width: 50%;
+  height: 100%;
 }
 #logoImg img
 {
   width: 100%;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
   height: 100%;
 }
 #homepage
 {
-  padding: 20px 15px 20px 15px;
   width: 50%;
+  height: 100%;
 }
-
+#homepage .box
+{
+  padding: 50px;
+}
 #nav {
   display: flex;
   flex-direction: column;
-  padding: 30px;
 }
 #nav button
 {
