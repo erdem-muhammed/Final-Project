@@ -1,6 +1,7 @@
 <template>
   <div id="app"> 
     <div class="container">
+      <div id="logoImg"></div>
        <div id="nav">
           <router-link to="/">Home</router-link> |
          <router-link to="/about">About</router-link>
@@ -32,6 +33,8 @@ body {
   height: 80vh;
   width: 80vw;
   background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px rgb(143 143 143 / 75%);
 }
 
 #nav {
