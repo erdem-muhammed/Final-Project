@@ -6,6 +6,7 @@
       </div>
       <div id="homepage">
         <div class="box">
+        <img src="./assets/emblem.png" id="emblem">
         <h1>SHARE</h1>
         <h3>To connect people each other for better World</h3>
               <div id="nav">
@@ -58,6 +59,11 @@ body {
 {
   padding: 50px;
 }
+#emblem
+{
+  width: 6em;
+  height: 6em;
+}
 #nav {
   display: flex;
   flex-direction: column;
@@ -72,6 +78,7 @@ body {
   margin-bottom: 10px;
   border: 1px solid #aaa;
   cursor: pointer;
+
 }
 #nav button:first-child:hover
 {
