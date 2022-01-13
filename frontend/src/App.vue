@@ -6,10 +6,10 @@
       </div>
       <div id="homepage">
         <h1>SHARE</h1>
-        <h3>To connect people each other</h3>
+        <h3>To connect people each other for better World</h3>
               <div id="nav">
-                
-                <router-link to="/">Home</router-link> |
+                <button>asd</button>
+                <router-link to="/">Home</router-link> 
                 <router-link to="/about">About</router-link>
               </div>
       </div>
@@ -58,8 +58,9 @@ body {
 }
 
 #nav {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
 
 #nav a {
