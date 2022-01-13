@@ -71,6 +71,7 @@ body {
   background-color: black;
   margin-bottom: 10px;
   border: 1px solid #aaa;
+  cursor: pointer;
 }
 #nav button:first-child:hover
 {
