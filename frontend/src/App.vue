@@ -8,9 +8,9 @@
         <h1>SHARE</h1>
         <h3>To connect people each other for better World</h3>
               <div id="nav">
-                <button>asd</button>
-                <router-link to="/">Home</router-link> 
-                <router-link to="/about">About</router-link>
+                <button><router-link to="/">Home</router-link></button>
+                <button><router-link to="/about">About</router-link></button>
+                
               </div>
       </div>
     </div>
