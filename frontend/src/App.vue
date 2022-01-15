@@ -113,5 +113,17 @@ body {
     font-size: 0.9em;
   }
 }
+@media only screen and (max-width: 480px) {
+  #logoImg 
+  {
+    display: none;
+  }
+  #homepage {
+    width: 100%;
+  }
+  #nav{
+    align-items: center;
+  }
+}
 
 </style>
