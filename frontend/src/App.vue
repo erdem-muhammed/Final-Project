@@ -107,4 +107,11 @@ body {
   justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+  #app
+  {
+    font-size: 0.9em;
+  }
+}
+
 </style>
