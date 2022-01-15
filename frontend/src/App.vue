@@ -79,6 +79,7 @@ body {
   cursor: pointer;
   width: 70%;
   color: white;
+  font-weight: bold;
 }
 #nav button:first-child:hover
 {
@@ -93,11 +94,6 @@ body {
 {
   background-color: #1eac1e;
   transition: background-color ease-in-out 0.4s;
-}
-#nav a {
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
 }
 .container .copyright
 {
