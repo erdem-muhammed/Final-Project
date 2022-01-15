@@ -121,6 +121,10 @@ body {
   #homepage {
     width: 100%;
   }
+  #homepage .box
+  {
+    text-align: center;
+  }
   #nav{
     align-items: center;
   }
