@@ -114,12 +114,18 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+  #app
+  {
+    font-size: 0.8em;
+    height: 100vh;
+  }
   #logoImg 
   {
     display: none;
   }
   #homepage {
     width: 100%;
+    
   }
   #homepage .box
   {
