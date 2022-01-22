@@ -25,5 +25,14 @@ export default {
     align-items: center;
     background-color: #f7ead7;
 }
-
+.loginBox {
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgb(143 143 143 / 75%);
+}
 </style>
