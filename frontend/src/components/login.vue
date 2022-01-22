@@ -1,11 +1,11 @@
 <template>
     <div class="container">
        <div class="loginBox">
-           <h3>Sign in</h3>
+           <h1>Sign in</h1>
            <input type="text" placeholder="Username or Email">
            <input type="text" placeholder="Password">
            <input type="submit" value="Login">
-           <div id="links">
+           <div class="links">
                 <router-link to="/login" tag="button">Login</router-link>
                 <a href="#"><button>Forgot Password?</button></a>
                 <router-link to="/signup" tag="button">Register</router-link>
