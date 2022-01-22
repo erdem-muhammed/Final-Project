@@ -46,4 +46,14 @@ export default {
     margin-bottom: 10px;
     border: 1px solid #aaa;
 }
+.loginBox input[type=submit] {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
 </style>
