@@ -1,15 +1,16 @@
 <template>
-<div>
-  asdasdasdasd
-</div>
+
+<loginpage/>
+
 </template>
 
 <script>
+import loginpage from "../components/login.vue";
 
 export default {
   name: 'Login',
-  components: {
-
+  components: { 
+    loginpage 
   }
 }
 </script>
