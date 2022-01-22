@@ -73,7 +73,7 @@ body {
   border-radius: 25px;
   outline: none;
   padding: 10px;
- 
+  background-color: black;
   margin-bottom: 10px;
   border: 1px solid #aaa;
   cursor: pointer;
