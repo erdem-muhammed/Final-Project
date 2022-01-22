@@ -6,9 +6,8 @@
            <input type="text" placeholder="Password">
            <input type="submit" value="Login">
            <div class="links">
-                <router-link to="/login" tag="button">Login</router-link>
-                <a href="#"><button>Forgot Password?</button></a>
-                <router-link to="/signup" tag="button">Register</router-link>
+                <input type="submit" value="Forgot Password">
+                <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
             </div>
        </div>
     </div>
@@ -55,5 +54,14 @@ export default {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 5px;
+}
+.loginBox .links
+{
+    display: flex;
+    flex-direction: column;
+}
+#registerBtn
+{
+    
 }
 </style>
