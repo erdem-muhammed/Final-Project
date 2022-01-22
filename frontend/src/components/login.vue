@@ -50,7 +50,7 @@ export default {
     font-weight: bold;
     border-radius: 25px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 5px;
 }
 #forgotPass
