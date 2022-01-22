@@ -3,6 +3,7 @@
        <div class="loginBox">
            <h3>Sign in</h3>
            <input type="text" placeholder="Username or Email">
+           <input type="text" placeholder="Password">
        </div>
     </div>
   
