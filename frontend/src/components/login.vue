@@ -62,6 +62,14 @@ export default {
 }
 #registerBtn
 {
-    
+    cursor: pointer;
+    background-color: #0EBD60;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
 }
 </style>
