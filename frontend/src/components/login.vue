@@ -5,10 +5,8 @@
            <input type="text" placeholder="Username or Email">
            <input type="text" placeholder="Password">
            <input type="submit" value="Login">
-           <div class="links">
-                <input type="submit" value="Forgot Password">
-                <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
-            </div>
+            <input type="submit" value="Forgot Password" id="forgotPass">
+            <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
        </div>
     </div>
   
@@ -55,10 +53,15 @@ export default {
     margin-bottom: 20px;
     margin-top: 5px;
 }
-.loginBox .links
+#forgotPass
 {
-    display: flex;
-    flex-direction: column;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 #registerBtn
 {
