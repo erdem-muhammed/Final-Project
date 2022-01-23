@@ -7,6 +7,7 @@
             <input type="text"     placeholder="Email">
             <input type="password" placeholder="Password">
             <input type="text"     placeholder="Phone Number">
+            <input type="submit" value="Submit">
         </div>
     </div>
 </template>
