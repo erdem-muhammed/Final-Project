@@ -25,4 +25,14 @@ export default {
     justify-content: center;
     align-items: center
 }
+.registerForm{
+    width: 400px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px rgb(143 143 143 / 75%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 </style>
