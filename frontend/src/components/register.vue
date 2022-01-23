@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="registerForm">
-            
+            <h1>Register</h1>
         </div>
     </div>
 </template>
