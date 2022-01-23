@@ -54,4 +54,9 @@ export default {
 .registerForm input[type=submit]:hover{
     background-color: rgb(51, 51, 51);
 }
+@media only screen and (max-width: 768px) {
+    .registerForm{
+        width: 360px;
+    }
+}
 </style>

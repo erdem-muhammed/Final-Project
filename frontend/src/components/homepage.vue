@@ -130,7 +130,6 @@ body {
   }
   #homepage {
     width: 100%;
-    
   }
   #homepage .box
   {
