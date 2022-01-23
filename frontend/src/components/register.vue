@@ -7,7 +7,7 @@
             <input type="text"     placeholder="Email">
             <input type="password" placeholder="Password">
             <input type="text"     placeholder="Phone Number">
-            <input type="submit" value="Submit">
+            <input type="submit"   value="Submit">
         </div>
     </div>
 </template>
@@ -35,5 +35,12 @@ export default {
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
+.registerForm input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    outline: none;
 }
 </style>
