@@ -43,4 +43,12 @@ export default {
     border-radius: 8px;
     outline: none;
 }
+.registerForm input[type=submit] {
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #111;
+    color: white;
+    margin-top: 10px;
+}
 </style>
