@@ -1,8 +1,5 @@
 <template> 
-     <div>
-        <Register/>
-     </div>
-
+    <Register/>
 </template>
 
 
