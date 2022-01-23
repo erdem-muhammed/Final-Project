@@ -75,4 +75,10 @@ export default {
     padding: 10px 15px;
     border: 1px solid #aaa;
 }
+@media only screen and (max-width: 768px) {
+    .loginBox{
+        width: 360px;
+        font-size: 0.9em;
+    }
+}
 </style>
