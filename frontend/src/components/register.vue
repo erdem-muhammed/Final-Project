@@ -57,6 +57,8 @@ export default {
 @media only screen and (max-width: 768px) {
     .registerForm{
         width: 360px;
+        font-size: 0.9em;
     }
 }
+@media only screen and (max-width: 480px)
 </style>
