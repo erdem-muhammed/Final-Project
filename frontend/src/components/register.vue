@@ -51,4 +51,7 @@ export default {
     color: white;
     margin-top: 10px;
 }
+.registerForm input[type=submit]:hover{
+    background-color: rgb(51, 51, 51);
+}
 </style>
