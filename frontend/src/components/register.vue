@@ -7,7 +7,7 @@
             <input type="text"     placeholder="Email" v-model="reg_email" required>
             <input type="password" placeholder="Password" v-model="reg_pass" required>
             <input type="text"     placeholder="Phone Number" v-model="reg_phone" required>
-            <input type="submit"   value="Submit">
+            <input type="submit"   value="Submit" @click="register">
         </form>
     </div>
 </template>
