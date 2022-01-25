@@ -14,6 +14,15 @@
 
 <script>
 export default {
+    data(){
+        return{
+            reg_name: "",
+            reg_surname: "",
+            reg_email: "",
+            reg_pass: "",
+            reg_phone: "",
+        }
+    }
     
 }
 </script>
