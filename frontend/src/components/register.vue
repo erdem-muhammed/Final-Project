@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="registerForm">
+        <form class="registerForm">
             <h1>Register</h1>
             <input type="text"     placeholder="Name">
             <input type="text"     placeholder="Surname">
@@ -8,7 +8,7 @@
             <input type="password" placeholder="Password">
             <input type="text"     placeholder="Phone Number">
             <input type="submit"   value="Submit">
-        </div>
+        </form>
     </div>
 </template>
 
