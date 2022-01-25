@@ -2,11 +2,11 @@
     <div class="container">
         <form class="registerForm">
             <h1>Register</h1>
-            <input type="text"     placeholder="Name">
-            <input type="text"     placeholder="Surname">
-            <input type="text"     placeholder="Email">
-            <input type="password" placeholder="Password">
-            <input type="text"     placeholder="Phone Number">
+            <input type="text"     placeholder="Name" v-model="reg_name">
+            <input type="text"     placeholder="Surname" v-model="reg_surname">
+            <input type="text"     placeholder="Email" v-model="reg_email">
+            <input type="password" placeholder="Password" v-model="reg_pass">
+            <input type="text"     placeholder="Phone Number" v-model="reg_phone">
             <input type="submit"   value="Submit">
         </form>
     </div>
