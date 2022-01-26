@@ -31,7 +31,10 @@ export default {
             formData.append("email", this.reg_email);
             formData.append("password", this.reg_pass);
             formData.append("phone", this.reg_phone);
-            fetch('http://localhost/final_project/register.php')
+            fetch('http://localhost/final_project/register.php',{
+                method: 'post',
+                
+            })
         }
     }
     
