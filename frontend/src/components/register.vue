@@ -43,7 +43,17 @@ export default {
             .then(response => response.json())
             .then(result => {
                 if(result.successfull == "1")
-                
+                {
+                    document.cookie = "token=" + result.token;
+
+                    ///Welcome
+
+                    console.log("login successfull");
+                }
+                else
+                {
+                    console.log("login failed!!");
+                }
             })
         }
     }
