@@ -28,6 +28,8 @@ export default {
             const formData = new FormData();
             formData.append("name", this.reg_name);
             formData.append("surname", this.reg_surname);
+            formData.append("email", this.reg_email);
+            
             
         }
     }
