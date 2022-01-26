@@ -7,7 +7,7 @@
             <input type="text"     placeholder="Email" v-model="reg_email" required>
             <input type="password" placeholder="Password" v-model="reg_pass" required>
             <input type="text"     placeholder="Phone Number" v-model="reg_phone" required>
-            <div>{{ reg_info }}</div>
+            <div   class="info">{{ reg_info }}</div>
             <input type="submit"   value="Submit" @click="register">
         </form>
     </div>
@@ -45,6 +45,7 @@ export default {
                 if(result.successfull == "1")
                 {
                     this.new_user = false;
+                    this.reg_info = "Successfully signed up!"
                 }
                 else
                 {
@@ -93,6 +94,9 @@ export default {
 }
 .registerForm input[type=submit]:hover{
     background-color: rgb(51, 51, 51);
+}
+.registerForm .info{
+    color: ;
 }
 @media only screen and (max-width: 768px) {
     .registerForm{
