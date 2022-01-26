@@ -7,6 +7,7 @@
            <input type="submit" value="Login" @click="login">
            <input type="submit" value="Forgot Password" id="forgotPass">
            <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
+           <div>{{ info }}</div>
        </div>
     </div>
   
@@ -18,6 +19,7 @@ export default {
         return{
             user_email: "",
             user_pass:  "",
+            info: "",
         }
     },
     methods: {
@@ -31,7 +33,20 @@ export default {
                 mode: 'cors',
                 body: formData
             })
-            .then(Response => response.json())
+            .then(response => response.json())
+           .then(result => {
+               if(result.successfull == "1") {
+                   document.cookie = "token=" + result.token;
+                   this.$router.push("/");
+               }
+               else {
+                   this.info = "something wrong";
+                   this.user_email = "";
+                   this.user_pass = "";
+               }
+           });
+
+         
         }
 
     }
