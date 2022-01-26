@@ -7,7 +7,7 @@
            <input type="submit" value="Login" @click="login">
            <input type="submit" value="Forgot Password" id="forgotPass">
            <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
-           <div>{{ info }}</div>
+           <div class="info">{{ info }}</div>
        </div>
     </div>
   
@@ -88,6 +88,10 @@ export default {
     width: 100%;
     margin-bottom: 10px;
     margin-top: 5px;
+}
+.loginBox .info
+{
+    color: red;
 }
 #forgotPass
 {
