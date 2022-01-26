@@ -22,6 +22,7 @@ export default {
     },
     methods: {
         login(){
+            const formDat = new FormData();
             
         }
 
