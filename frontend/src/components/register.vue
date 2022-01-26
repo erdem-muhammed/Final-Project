@@ -34,7 +34,7 @@ export default {
             fetch('http://localhost/final_project/register.php',{
                 method: 'post',
                 mode: 'cors',
-                
+                body: formData,
             })
         }
     }
