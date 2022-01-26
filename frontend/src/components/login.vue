@@ -2,11 +2,11 @@
     <div class="container">
        <div class="loginBox">
            <h1>Sign in</h1>
-           <input type="text" placeholder="Username or Email">
-           <input type="text" placeholder="Password">
+           <input type="text" placeholder="Username or Email" v-model="user_pass" required>
+           <input type="text" placeholder="Password" v-model="user_pass" required>
            <input type="submit" value="Login">
-            <input type="submit" value="Forgot Password" id="forgotPass">
-            <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
+           <input type="submit" value="Forgot Password" id="forgotPass">
+           <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
        </div>
     </div>
   
