@@ -27,6 +27,7 @@ export default {
         register(){
             const formData = new FormData();
             formData.append("name", this.reg_name);
+            formData.append("surname", this.reg_surname);
             
         }
     }
