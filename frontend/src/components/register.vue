@@ -32,6 +32,7 @@ export default {
             formData.append("email", this.reg_email);
             formData.append("password", this.reg_pass);
             formData.append("phoneNumber", this.reg_phone);
+            
             fetch('http://localhost/final_project/register.php',{
                 method: 'post',
                 mode: 'cors',
@@ -41,7 +42,7 @@ export default {
             .then(result => {
                 if(result.successfull == "1")
                 {
-                    this.new_user = false;
+                    this.new_user = true;
                 }
                 else
                 {
