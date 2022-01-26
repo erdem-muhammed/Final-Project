@@ -35,6 +35,10 @@ export default {
                 method: 'post',
                 mode: 'cors',
                 body: formData,
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                }
             })
         }
     }
