@@ -22,7 +22,8 @@ export default {
     },
     methods: {
         login(){
-            const formDat = new FormData();
+            const formData = new FormData();
+            formData.append("email", this.user_email);
             
         }
 
