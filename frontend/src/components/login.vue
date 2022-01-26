@@ -18,7 +18,7 @@ export default {
     data() {
         return{
             user_email: "",
-            user_pass:  "",
+            user_password:  "",
             info: "",
         }
     },
@@ -26,7 +26,7 @@ export default {
         login(){
             const formData = new FormData();
             formData.append("email", this.user_email);
-            formData.append("pass", this.user_pass);
+            formData.append("password", this.user_pass);
 
             fetch('http://localhost/final_project/login.php', {
                 method: 'post',
