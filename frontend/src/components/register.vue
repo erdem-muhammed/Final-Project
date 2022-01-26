@@ -35,25 +35,22 @@ export default {
             fetch('http://localhost/final_project/register.php',{
                 method: 'post',
                 mode: 'cors',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                }
+                body: formData
             })
             .then(response => response.json())
             .then(result => {
                 if(result.successfull == "1")
                 {
                     this.new_user = false;
-
-                    ///Welcome
                 }
                 else
                 {
                     console.log("register failed!!");
                 }
             })
+            .catch(function(error) {
+                    console.log(error);
+            });
         }
     }
     
