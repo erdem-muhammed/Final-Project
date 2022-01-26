@@ -33,6 +33,7 @@ export default {
             formData.append("phone", this.reg_phone);
             fetch('http://localhost/final_project/register.php',{
                 method: 'post',
+                mode: 'cors',
                 
             })
         }
