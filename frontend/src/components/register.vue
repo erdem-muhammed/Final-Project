@@ -96,7 +96,7 @@ export default {
     background-color: rgb(51, 51, 51);
 }
 .registerForm .info{
-    color: ;
+    color: #0EBD60;
 }
 @media only screen and (max-width: 768px) {
     .registerForm{
