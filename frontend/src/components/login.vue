@@ -24,7 +24,13 @@ export default {
         login(){
             const formData = new FormData();
             formData.append("email", this.user_email);
-            
+            formData.append("pass", this.user_pass);
+
+            fetch('http://localhost/final_project/login.php', {
+                method: 'post',
+                mode: 'cors',
+                body: formData
+            })
         }
 
     }
