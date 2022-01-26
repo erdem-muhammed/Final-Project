@@ -31,7 +31,7 @@ export default {
             formData.append("surname", this.reg_surname);
             formData.append("email", this.reg_email);
             formData.append("password", this.reg_pass);
-            formData.append("phone", this.reg_phone);
+            formData.append("phoneNumber", this.reg_phone);
             fetch('http://localhost/final_project/register.php',{
                 method: 'post',
                 mode: 'cors',
@@ -45,15 +45,13 @@ export default {
             .then(result => {
                 if(result.successfull == "1")
                 {
-                    document.cookie = "token=" + result.token;
+                    this.new_user = false;
 
                     ///Welcome
-
-                    console.log("login successfull");
                 }
                 else
                 {
-                    console.log("login failed!!");
+                    console.log("register failed!!");
                 }
             })
         }
