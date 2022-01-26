@@ -21,7 +21,7 @@ export default {
             reg_email: "",
             reg_pass: "",
             reg_phone: "",
-            new_user: "",
+            new_user: false
         };
     },
     methods: {
