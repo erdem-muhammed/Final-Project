@@ -3,7 +3,7 @@
        <div class="loginBox">
            <h1>Sign in</h1>
            <input type="text" placeholder="Email" v-model="user_email" required>
-           <input type="text" placeholder="Password" v-model="user_pass" required>
+           <input type="password" placeholder="Password" v-model="user_pass" required>
            <input type="submit" value="Login" @click="login">
            <input type="submit" value="Forgot Password" id="forgotPass">
            <router-link to="/signup" tag="button" id="registerBtn">Register</router-link>
