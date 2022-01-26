@@ -30,7 +30,8 @@ export default {
             formData.append("surname", this.reg_surname);
             formData.append("email", this.reg_email);
             formData.append("password", this.reg_pass);
-            
+            formData.append("phone", this.reg_phone);
+
 
             
         }
