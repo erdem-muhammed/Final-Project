@@ -31,6 +31,7 @@ export default {
                 mode: 'cors',
                 body: formData
             })
+            .then(Response => response.json())
         }
 
     }
