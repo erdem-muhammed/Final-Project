@@ -21,14 +21,22 @@ export default {
     display: flex;
     flex-direction: column;
     text-align: start;
-
+    border-radius: 8px;
+    background-color: rgb(129, 231, 235);
+    height: 50vh;
 }
 .headline{
     cursor: pointer;
 }
 .row{
     margin-bottom: 40px;
-    
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform ease-in-out 0.3s;
+}
+.row:hover{
+    transform: scale(1.1);
 }
 
 </style>
