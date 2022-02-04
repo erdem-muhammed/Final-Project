@@ -3,8 +3,17 @@
         <Header />
         <div>
             <div class="wrapper">
-                <div>
-                   <Groups />
+                <div class="container">
+                    <div class="left">
+                        <Groups />
+                    </div>
+                    <div class="mid">
+                        <Flow />
+                    </div>
+                    <div class="right">
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -15,10 +24,12 @@
 <script>
 import Header from '../components/header.vue';
 import Groups from '../components/leftSide.vue';
+import Flow from '../components/userposts.vue';
 export default {
     components: {
         Header,
         Groups,
+        Flow,
     },
 }
 </script>
