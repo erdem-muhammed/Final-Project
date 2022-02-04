@@ -1,6 +1,6 @@
 <template>
     <div class="boxLeft">
-        <h2 class="headline">Groups</h2>
+        <h2 class="headlineLeft">Groups</h2>
         <div class="row">Chess</div>
         <div class="row">Cooking</div>
         <div class="row">Web Development</div>
@@ -25,7 +25,7 @@ export default {
     background-color: rgb(129, 231, 235);
     height: 50vh;
 }
-.headline{
+.headlineLeft{
     cursor: pointer;
 }
 .row{

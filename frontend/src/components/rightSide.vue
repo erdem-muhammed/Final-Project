@@ -23,5 +23,7 @@ export default {
     background-color: rgb(129, 231, 235);
     height: 50vh;
 }
-
+.headlineRight{
+    cursor: pointer;
+}
 </style>
