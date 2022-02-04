@@ -47,5 +47,8 @@ export default {
 .container .left{
     width: 20%;
 }
+.container .mid{
+    width: 60%;
+}
 
 </style>
