@@ -46,11 +46,13 @@ export default {
 }
 .container .left{
     width: 20%;
+    margin-top: 5em;
 }
 .container .mid{
     width: 60%;
 }
 .container .right{
     width: 20%;
+    margin-top: 5em;
 }
 </style>
