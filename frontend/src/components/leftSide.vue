@@ -1,6 +1,6 @@
 <template>
-    <div>
-        
+    <div class="box">
+asda
     </div>
 </template>
 
@@ -10,3 +10,10 @@ export default {
     
 }
 </script>
+
+<style scoped>
+.box{
+    padding: 15px 10px;
+    border: 1px solid #aaa;
+}
+</style>
