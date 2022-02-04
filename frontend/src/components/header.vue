@@ -84,4 +84,20 @@ export default {
     margin-right: 10px;
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+   .menu{
+       justify-content: space-around !important;
+       font-size: 0.9em;
+   }
+}
+@media only screen and (max-width: 480px) {
+    .menu {
+        font-size: 0.8em;
+        justify-content: space-evenly !important;
+    }
+    .menu .profileImg
+    {
+        display: none;
+    }
+}
 </style>
