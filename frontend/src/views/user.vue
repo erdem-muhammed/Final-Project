@@ -50,5 +50,7 @@ export default {
 .container .mid{
     width: 60%;
 }
-
+.container .right{
+    width: 20%;
+}
 </style>
