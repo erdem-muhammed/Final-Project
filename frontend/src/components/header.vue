@@ -11,7 +11,7 @@
                 </div>
                 <div class="searchBox">
                     <input type="text" placeholder="Search">
-                    <input type="submit" value="Search">
+                    <button>Search</button>
                 </div>
                 <div class="navbar">
                     <img src="../assets/home.png" alt="">
@@ -60,7 +60,14 @@ export default {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
-
+.searchBox button{
+    border: 1px solid #aaa;
+    outline: none;
+    border-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 8px 15px;
+}
 .logoImg
 {
     width: 4vw;
