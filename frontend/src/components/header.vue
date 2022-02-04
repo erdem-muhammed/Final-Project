@@ -7,6 +7,10 @@
                     <input type="text" placeholder="Search">
                     <input type="submit" value="Search">
                 </div>
+                <div class="profile">
+                    <img src="../assets/user.png">
+                    <div>Username</div>
+                </div>
             </div>
         </div>
     </div>
