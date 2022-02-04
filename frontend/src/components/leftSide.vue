@@ -21,8 +21,14 @@ export default {
     display: flex;
     flex-direction: column;
     text-align: start;
+
+}
+.headline{
+    cursor: pointer;
 }
 .row{
     margin-bottom: 40px;
+    
 }
+
 </style>
