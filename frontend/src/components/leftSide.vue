@@ -1,5 +1,5 @@
 <template>
-    <div class="box">
+    <div class="boxLeft">
         <h2 class="headline">Groups</h2>
         <div class="row">Chess</div>
         <div class="row">Cooking</div>
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style>
-.box{
+.boxLeft{
     padding: 15px 10px;
     border: 1px solid #aaa;
     display: flex;

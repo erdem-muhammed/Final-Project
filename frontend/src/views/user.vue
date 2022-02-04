@@ -11,7 +11,7 @@
                         <Flow />
                     </div>
                     <div class="right">
-                        <activity />
+                        <Friends />
                     </div>
 
                 </div>
@@ -25,13 +25,13 @@
 import Header from '../components/header.vue';
 import Groups from '../components/leftSide.vue';
 import Flow from '../components/userposts.vue';
-import Activity from '../components/rightSide.vue';
+import Friends from '../components/rightSide.vue';
 export default {
     components: {
         Header,
         Groups,
         Flow,
-        Activity
+        Friends
     },
 }
 </script>
