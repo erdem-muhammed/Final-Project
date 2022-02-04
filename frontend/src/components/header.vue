@@ -1,6 +1,8 @@
 <template>
-    <div>
-        asdas
+    <div class="header">
+        <div class="wrapper">
+            
+        </div>
     </div>
 </template>
 
@@ -9,3 +11,14 @@ export default {
     
 }
 </script>
+
+<style>
+.header{
+    height: 8vh;
+    background-color: blue;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+</style>
