@@ -14,7 +14,7 @@
                     <input type="submit" value="Search">
                 </div>
                 <div class="navbar">
-                    <img src="" alt="">
+                    <img src="../assets/home.png" alt="">
                 </div>
             </div>
         </div>
