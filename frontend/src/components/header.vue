@@ -1,7 +1,13 @@
 <template>
     <div class="header">
         <div class="wrapper">
-            
+            <div class="menu">
+                <img src="../assets/emblem.png" class="logoImg">
+                <div class="searchBox">
+                    <input type="text" placeholder="Search">
+                    <input type="submit" value="Search">
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -14,11 +20,21 @@ export default {
 
 <style>
 .header{
-    height: 8vh;
-    background-color: blue;
+    height: 12vh;
+    margin-top: 1vh;
 }
 .wrapper{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+.header .wrapper .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoImg
+{
+    width: 4vw;
 }
 </style>
