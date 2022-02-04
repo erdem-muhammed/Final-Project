@@ -1,6 +1,6 @@
 <template>
     <div class="box">
-        <h2 class="groups">Groups</h2>
+        <h2 class="headline">Groups</h2>
         <div class="row">Chess</div>
         <div class="row">Cooking</div>
         <div class="row">Web Development</div>
@@ -21,5 +21,8 @@ export default {
     display: flex;
     flex-direction: column;
     text-align: start;
+}
+.row{
+    margin-bottom: 40px;
 }
 </style>
