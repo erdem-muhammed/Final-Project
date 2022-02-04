@@ -53,6 +53,14 @@ export default {
     text-align: center;
     cursor: pointer;
 }
+.searchBox input{
+    width: 15vw;
+    border: 1px solid #aaa;
+    padding: 8px 8px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
 .logoImg
 {
     width: 4vw;
