@@ -1,6 +1,6 @@
 <template>
     <div class="boxRight">
-
+        <h2 class="headlineRight">Friends</h2>
     </div>
 </template>
 
@@ -23,4 +23,5 @@ export default {
     background-color: rgb(129, 231, 235);
     height: 50vh;
 }
+
 </style>
