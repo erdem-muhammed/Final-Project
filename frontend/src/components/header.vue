@@ -2,14 +2,19 @@
     <div class="header">
         <div class="wrapper">
             <div class="menu">
-                <img src="../assets/emblem.png" class="logoImg">
+                <div class="profileImg">
+                    <img src="../assets/emblem.png" class="logoImg">
+                    <div>
+                        <img src="../assets/user.png">
+                        <div>Username</div>
+                    </div>
+                </div>
                 <div class="searchBox">
                     <input type="text" placeholder="Search">
                     <input type="submit" value="Search">
                 </div>
-                <div class="profile">
-                    <img src="../assets/user.png">
-                    <div>Username</div>
+                <div class="navbar">
+                    <img src="" alt="">
                 </div>
             </div>
         </div>
@@ -36,7 +41,18 @@ export default {
     align-items: center;
     justify-content: space-between;
 }
-
+.profileImg
+{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profileImg:first-child
+{
+    text-align: center;
+    cursor: pointer;
+}
 .logoImg
 {
     width: 4vw;
