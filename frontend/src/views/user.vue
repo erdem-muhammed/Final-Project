@@ -11,7 +11,7 @@
                         <Flow />
                     </div>
                     <div class="right">
-
+                        <activity />
                     </div>
 
                 </div>
@@ -25,11 +25,13 @@
 import Header from '../components/header.vue';
 import Groups from '../components/leftSide.vue';
 import Flow from '../components/userposts.vue';
+import Activity from '../components/rightSide.vue';
 export default {
     components: {
         Header,
         Groups,
         Flow,
+        Activity
     },
 }
 </script>
@@ -39,4 +41,11 @@ export default {
     max-width: 1000px;
     margin: 0 auto;
 }
+.container{
+    display: flex;
+}
+.container .left{
+    width: 20%;
+}
+
 </style>
