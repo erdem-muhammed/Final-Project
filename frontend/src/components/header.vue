@@ -29,9 +29,11 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 .header{
     height: 12vh;
     margin-top: 1vh;
+    font-family: 'Open Sans', sans-serif;
 }
 .wrapper{
     max-width: 1000px;
@@ -68,11 +70,11 @@ export default {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     padding: 8px 15px;
-    background-color: ;
+    background-color: #0EBD60;
+    color: white;
+    cursor: pointer;
 }
-.searchBox button:hover{
-    background-color: ;
-}
+
 .logoImg
 {
     width: 4vw;
