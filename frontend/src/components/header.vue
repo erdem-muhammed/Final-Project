@@ -15,6 +15,7 @@
                 </div>
                 <div class="navbar">
                     <img src="../assets/home.png" alt="">
+                    <img src="../assets/menu.png" alt="">
                 </div>
             </div>
         </div>
@@ -54,7 +55,7 @@ export default {
     cursor: pointer;
 }
 .searchBox input{
-    width: 15vw;
+    width: 18vw;
     border: 1px solid #aaa;
     padding: 8px 8px;
     border-top-left-radius: 4px;
@@ -67,9 +68,18 @@ export default {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     padding: 8px 15px;
+    background-color: ;
+}
+.searchBox button:hover{
+    background-color: ;
 }
 .logoImg
 {
     width: 4vw;
+    margin-right: 20px;
+}
+.menu .navbar img{
+    margin-right: 10px;
+    cursor: pointer;
 }
 </style>
