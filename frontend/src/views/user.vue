@@ -24,7 +24,7 @@
 <script>
 import Header from '../components/header.vue';
 import Groups from '../components/leftSide.vue';
-import Flow from '../components/userposts.vue';
+import Flow from '../components/flow.vue';
 import Friends from '../components/rightSide.vue';
 export default {
     components: {
